@@ -76,6 +76,17 @@
                                     <f:param name="url" value="/?forcepostlogouturlafteridp"/>
                                 </h:outputLink>
                             </li>
+                            <li>
+                            </li>
+                            <li>
+                            </li>
+                            <li><h:link
+                                    outcome="form/upload">*Broken* - Upload File - Protected url by form authentication: form/index</h:link> (use login = pwd)
+                            </li>
+                            <li><h:link
+                                    outcome="upload">*Working* - Upload File - NOT Protected url </h:link>
+                            </li>
+                                
                         </ul>
                     </div>
                     <ui:include src="/WEB-INF/facelets/includes/pac4j-profiles-list.xhtml"/>

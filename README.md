@@ -18,3 +18,5 @@ OR
     mvn clean package embedded-payara:run
 
 To test, you can call a protected URL by clicking on the "Protected url by **xxx**" link, which will start the authentication process with the **xxx** provider.
+
+This utilizes org.pac4j.http.credentials.authenticator.test.SimpleTestUsernamePasswordAuthenticator.java where the submitted username needs to match the submitted password.
